@@ -1,0 +1,45 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: #fff;
+    font-size: 2em;
+}
+
+header {
+    background-color: #232730;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 5px;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.16em;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex > div {
+    width: calc(100% - 50px);
+    padding: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
